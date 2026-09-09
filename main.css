@@ -23,3 +23,7 @@ body {
 .navbar a:hover {
     background-color: #4c29e7;
 }
+
+main {
+    margin-top: 20px;
+}
