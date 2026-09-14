@@ -26,7 +26,9 @@ h1 {
     float: left;
 }
 
-.navbar li a, .dropbtn {
+.navbar li a {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
     display: block;
     color: white;
     text-align: center;
