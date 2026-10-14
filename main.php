@@ -27,21 +27,15 @@
                         </li>
                         <li class="nav-item">
                             <a class="navbar-brand" href="#">
-                                <img src="img/features.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-                                Features
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="navbar-brand" href="#">
                                 <img src="img/contact.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                                 Contact
                             </a>
                         </li>
                     </ul>
-                    <form class="d-flex ms-auto" role="search" style="gap: 10px;">
-                        <input type="text" id="usernameInput" placeholder="Enter username...">
-                        <input type="password" id="passwordInput" placeholder="Enter password...">
-                        <button type="input" id="loginButton">Login</button>
+                    <form method="POST" class="d-flex ms-auto" role="search" style="gap: 10px;">
+                        <input type="text" id="usernameInput" placeholder="Enter username..." required>
+                        <input type="password" id="passwordInput" placeholder="Enter password..." required>
+                        <button type="submit" id="loginButton">Login</button>
                     </form>
                 </div>
             </div>
